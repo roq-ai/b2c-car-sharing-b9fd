@@ -1,0 +1,1282 @@
+[
+  {
+    "car": [
+      {
+        "id": "54945c08-da1a-471f-bf13-b48ac15d5c03",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 89338,
+        "status": "Available",
+        "created_at": "2023-08-07T00:03:53.795Z",
+        "updated_at": "2023-08-06T21:43:38.709Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "fef0cdd2-f73f-4eae-bf82-c4668a743a37",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 93030,
+        "status": "Sold",
+        "created_at": "2023-08-06T17:56:49.763Z",
+        "updated_at": "2023-08-07T01:49:32.106Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "866f954e-ce4e-4e62-b65f-80118f4d20e9",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 4077,
+        "status": "Reserved",
+        "created_at": "2023-08-07T06:47:05.509Z",
+        "updated_at": "2023-08-06T22:47:35.182Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ef1bec09-ed0b-4c77-8663-b206c342b907",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 69698,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T09:42:21.561Z",
+        "updated_at": "2023-08-07T04:34:28.465Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "dedc800b-4880-47a5-9e9d-6716e64f01eb",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 76712,
+        "status": "On Order",
+        "created_at": "2023-08-07T04:54:03.909Z",
+        "updated_at": "2023-08-06T22:19:35.522Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b3069a97-a6f2-4812-9f2b-fc478766ece5",
+        "date_time": "2023-08-07T01:32:15.921Z",
+        "created_at": "2023-08-07T14:39:52.018Z",
+        "updated_at": "2023-08-06T17:08:33.534Z",
+        "car_id": "fef0cdd2-f73f-4eae-bf82-c4668a743a37",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ebadc094-d1e7-44c3-8383-823ec58b6403",
+        "date_time": "2023-08-06T21:00:45.172Z",
+        "created_at": "2023-08-07T07:05:55.069Z",
+        "updated_at": "2023-08-07T13:10:31.755Z",
+        "car_id": "ef1bec09-ed0b-4c77-8663-b206c342b907",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "75235734-77a8-48f9-8a13-1330ad8419ec",
+        "date_time": "2023-08-07T09:19:58.514Z",
+        "created_at": "2023-08-07T11:26:41.089Z",
+        "updated_at": "2023-08-06T20:02:08.596Z",
+        "car_id": "dedc800b-4880-47a5-9e9d-6716e64f01eb",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "39140534-0b0a-4a66-9f5e-1455da266723",
+        "date_time": "2023-08-06T23:39:44.189Z",
+        "created_at": "2023-08-07T01:41:00.703Z",
+        "updated_at": "2023-08-07T12:42:42.268Z",
+        "car_id": "dedc800b-4880-47a5-9e9d-6716e64f01eb",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a4f819b3-d69d-4b5f-86f7-36a6a3d73d8d",
+        "date_time": "2023-08-07T09:06:26.878Z",
+        "created_at": "2023-08-07T10:27:43.020Z",
+        "updated_at": "2023-08-07T11:17:26.232Z",
+        "car_id": "dedc800b-4880-47a5-9e9d-6716e64f01eb",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "c7a11b37-8902-4646-982a-e257781ad2db",
+        "created_at": "2023-08-07T07:28:31.532Z",
+        "updated_at": "2023-08-06T19:10:42.512Z",
+        "amount": 85647
+      },
+      {
+        "id": "dbe6296f-6fdf-49f1-9ff8-228e01c94559",
+        "created_at": "2023-08-07T02:32:24.650Z",
+        "updated_at": "2023-08-07T10:13:20.845Z",
+        "amount": 68949
+      },
+      {
+        "id": "767aa130-123f-4370-852e-04d6c4253b8a",
+        "created_at": "2023-08-07T15:49:07.920Z",
+        "updated_at": "2023-08-07T16:02:22.227Z",
+        "amount": 48549
+      },
+      {
+        "id": "ece621f0-71de-4a98-8422-befdcd60edb9",
+        "created_at": "2023-08-07T09:21:38.770Z",
+        "updated_at": "2023-08-07T08:18:03.285Z",
+        "amount": 90669
+      },
+      {
+        "id": "96398b54-bdce-42be-98b2-1beacca04399",
+        "created_at": "2023-08-06T19:54:45.323Z",
+        "updated_at": "2023-08-06T16:34:37.669Z",
+        "amount": 21748
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "129f5d09-88a2-4b3e-826c-8d0d0e84406a",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 17906,
+        "status": "Available",
+        "created_at": "2023-08-07T14:21:01.534Z",
+        "updated_at": "2023-08-07T06:09:24.478Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "46049e54-5730-479a-9923-5aa169b448d1",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 86612,
+        "status": "Sold",
+        "created_at": "2023-08-07T09:09:47.470Z",
+        "updated_at": "2023-08-07T06:33:15.223Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6efaf8d7-2a07-4bfa-a39b-220c88ba0cb0",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 78319,
+        "status": "Reserved",
+        "created_at": "2023-08-07T09:41:43.177Z",
+        "updated_at": "2023-08-07T05:40:01.717Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "29f16e6a-7308-48a3-89f2-ac583c784eb9",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 81199,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T12:26:45.959Z",
+        "updated_at": "2023-08-07T07:42:26.099Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "021d90b4-6d2f-42e3-96c1-2e829efc6ca8",
+        "model": "Electric Vehicle",
+        "make": "BMW",
+        "year": 2759,
+        "status": "On Order",
+        "created_at": "2023-08-07T11:30:17.885Z",
+        "updated_at": "2023-08-06T23:55:13.470Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5ad11eac-a109-468c-b078-fc904b5f7194",
+        "date_time": "2023-08-06T19:06:38.414Z",
+        "created_at": "2023-08-07T03:56:13.730Z",
+        "updated_at": "2023-08-07T15:37:37.883Z",
+        "car_id": "46049e54-5730-479a-9923-5aa169b448d1",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "efd22b46-41c4-41ab-8ca1-34243ddc4e86",
+        "date_time": "2023-08-06T18:26:10.858Z",
+        "created_at": "2023-08-07T12:55:47.723Z",
+        "updated_at": "2023-08-07T03:03:15.812Z",
+        "car_id": "46049e54-5730-479a-9923-5aa169b448d1",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "6196678e-312f-42a0-ac3a-45df27d90a02",
+        "date_time": "2023-08-07T00:00:09.122Z",
+        "created_at": "2023-08-06T19:51:54.831Z",
+        "updated_at": "2023-08-07T10:43:36.942Z",
+        "car_id": "29f16e6a-7308-48a3-89f2-ac583c784eb9",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0ab0e664-90b3-4374-ac66-a256f416a1cd",
+        "date_time": "2023-08-07T10:41:06.330Z",
+        "created_at": "2023-08-06T21:42:23.914Z",
+        "updated_at": "2023-08-06T21:44:36.350Z",
+        "car_id": "29f16e6a-7308-48a3-89f2-ac583c784eb9",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "146eb083-f781-4fab-8f94-de648d77d3cb",
+        "date_time": "2023-08-07T02:22:47.919Z",
+        "created_at": "2023-08-07T00:37:51.110Z",
+        "updated_at": "2023-08-06T23:32:13.219Z",
+        "car_id": "6efaf8d7-2a07-4bfa-a39b-220c88ba0cb0",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "cfddf5bd-6fe9-498b-b739-f791d468b997",
+        "created_at": "2023-08-06T17:54:13.647Z",
+        "updated_at": "2023-08-07T05:47:14.389Z",
+        "amount": 26085
+      },
+      {
+        "id": "54de308e-15da-4bcc-be7b-0bb65ddade03",
+        "created_at": "2023-08-07T04:30:16.093Z",
+        "updated_at": "2023-08-07T07:25:46.284Z",
+        "amount": 79986
+      },
+      {
+        "id": "6d143c4a-1e58-409e-b95b-28f3b066537e",
+        "created_at": "2023-08-06T22:57:34.924Z",
+        "updated_at": "2023-08-07T06:15:09.569Z",
+        "amount": 59939
+      },
+      {
+        "id": "d51cadd1-255b-4760-b6f5-85a8c69cf7c6",
+        "created_at": "2023-08-07T00:54:06.748Z",
+        "updated_at": "2023-08-07T06:04:31.283Z",
+        "amount": 9534
+      },
+      {
+        "id": "bfc5ed96-2f6f-498b-823c-a9697e7f1451",
+        "created_at": "2023-08-06T19:49:42.938Z",
+        "updated_at": "2023-08-07T13:36:34.125Z",
+        "amount": 60435
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "39109e29-5c37-4a62-8684-37ca8b483f95",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 77525,
+        "status": "Available",
+        "created_at": "2023-08-06T17:36:40.073Z",
+        "updated_at": "2023-08-07T01:18:48.971Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b7489914-cb2a-4a0a-a097-087955f9423d",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 17424,
+        "status": "Sold",
+        "created_at": "2023-08-07T12:42:21.151Z",
+        "updated_at": "2023-08-07T08:32:57.475Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0a0dc980-9750-4008-8a72-4b47a7f26010",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 54709,
+        "status": "Reserved",
+        "created_at": "2023-08-06T20:33:00.278Z",
+        "updated_at": "2023-08-07T07:58:52.637Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "27410bfc-bc96-4277-9e6d-2aa78bb88936",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 30869,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T14:19:41.841Z",
+        "updated_at": "2023-08-07T11:48:39.073Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "764843a1-3a53-48cb-9173-e959bedd6757",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 87006,
+        "status": "On Order",
+        "created_at": "2023-08-07T16:05:46.434Z",
+        "updated_at": "2023-08-07T10:05:38.356Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "7f68a6b5-025e-4679-848f-9540f4a34bfd",
+        "date_time": "2023-08-07T11:55:09.230Z",
+        "created_at": "2023-08-06T22:18:15.716Z",
+        "updated_at": "2023-08-07T02:26:52.700Z",
+        "car_id": "b7489914-cb2a-4a0a-a097-087955f9423d",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c03e99f2-07c4-4054-b8c6-3b6c408cf06e",
+        "date_time": "2023-08-07T09:56:30.650Z",
+        "created_at": "2023-08-06T19:17:05.076Z",
+        "updated_at": "2023-08-07T03:11:25.794Z",
+        "car_id": "b7489914-cb2a-4a0a-a097-087955f9423d",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e658cb0b-3c78-4e06-a0fe-62ec1d5af6fe",
+        "date_time": "2023-08-06T22:03:01.013Z",
+        "created_at": "2023-08-06T18:18:21.875Z",
+        "updated_at": "2023-08-07T10:40:33.363Z",
+        "car_id": "764843a1-3a53-48cb-9173-e959bedd6757",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "404532ea-16b1-4908-aae7-6a6ded097d9d",
+        "date_time": "2023-08-06T16:59:10.294Z",
+        "created_at": "2023-08-07T14:24:46.988Z",
+        "updated_at": "2023-08-06T17:47:24.169Z",
+        "car_id": "39109e29-5c37-4a62-8684-37ca8b483f95",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a0bff0dd-d558-4474-b54b-a52dd51da866",
+        "date_time": "2023-08-07T04:32:51.676Z",
+        "created_at": "2023-08-07T08:29:43.444Z",
+        "updated_at": "2023-08-07T03:44:06.168Z",
+        "car_id": "27410bfc-bc96-4277-9e6d-2aa78bb88936",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "20738d58-a58a-4c01-8eb4-ce3c2e81b583",
+        "created_at": "2023-08-07T09:18:41.315Z",
+        "updated_at": "2023-08-07T13:59:14.203Z",
+        "amount": 22804
+      },
+      {
+        "id": "04dff7de-c719-4bb1-9a40-e0e7b3a4b73e",
+        "created_at": "2023-08-07T05:06:41.798Z",
+        "updated_at": "2023-08-07T04:52:37.920Z",
+        "amount": 17740
+      },
+      {
+        "id": "6ed6b6a1-2ab6-4801-827a-9c98d69f4f5d",
+        "created_at": "2023-08-07T08:32:25.576Z",
+        "updated_at": "2023-08-07T09:55:36.671Z",
+        "amount": 67447
+      },
+      {
+        "id": "2ffe14d9-7c51-4dc9-8449-f7494dc0e59b",
+        "created_at": "2023-08-07T10:44:01.353Z",
+        "updated_at": "2023-08-07T04:01:26.284Z",
+        "amount": 44099
+      },
+      {
+        "id": "3686fd76-5166-43df-a5ad-9a3955adce92",
+        "created_at": "2023-08-06T20:36:18.604Z",
+        "updated_at": "2023-08-07T04:34:07.547Z",
+        "amount": 31635
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "45120c76-d738-43c1-83c3-2c9e291eaa13",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 14333,
+        "status": "Available",
+        "created_at": "2023-08-07T03:40:28.132Z",
+        "updated_at": "2023-08-07T12:17:10.226Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6b84edc5-d51f-4c6b-b19c-a1ccaf6fcb68",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 95148,
+        "status": "Sold",
+        "created_at": "2023-08-07T06:36:41.377Z",
+        "updated_at": "2023-08-07T15:06:20.023Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6c8bd76e-42d7-4739-8a9d-64d6056bb8e3",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 62886,
+        "status": "Reserved",
+        "created_at": "2023-08-07T01:04:50.032Z",
+        "updated_at": "2023-08-07T10:57:35.484Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "566312c9-1670-4a15-a527-6ce2496f7fd3",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 2594,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T01:49:31.014Z",
+        "updated_at": "2023-08-07T13:56:43.843Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "5a8c81f5-7651-47ed-aaa8-5d01afa6050f",
+        "model": "Electric",
+        "make": "Tesla",
+        "year": 54856,
+        "status": "On Order",
+        "created_at": "2023-08-07T05:02:35.334Z",
+        "updated_at": "2023-08-06T21:52:13.869Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "eeb1a279-2045-444a-9fe9-2d4b7c102af9",
+        "date_time": "2023-08-07T15:07:14.242Z",
+        "created_at": "2023-08-07T11:05:34.486Z",
+        "updated_at": "2023-08-07T02:41:41.327Z",
+        "car_id": "6c8bd76e-42d7-4739-8a9d-64d6056bb8e3",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "a3d7a77a-f1ac-439c-949d-2a086f93dbd1",
+        "date_time": "2023-08-06T16:54:06.526Z",
+        "created_at": "2023-08-07T04:41:50.569Z",
+        "updated_at": "2023-08-07T11:22:33.910Z",
+        "car_id": "566312c9-1670-4a15-a527-6ce2496f7fd3",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3f5f9d96-a6cd-4907-9ff3-d412c2125699",
+        "date_time": "2023-08-07T12:53:40.023Z",
+        "created_at": "2023-08-07T15:50:45.436Z",
+        "updated_at": "2023-08-07T11:35:00.776Z",
+        "car_id": "6c8bd76e-42d7-4739-8a9d-64d6056bb8e3",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "de5a5eb8-4fce-4a21-9576-b9ca4b4fcd4e",
+        "date_time": "2023-08-07T12:23:36.643Z",
+        "created_at": "2023-08-06T21:17:34.110Z",
+        "updated_at": "2023-08-07T16:07:10.905Z",
+        "car_id": "6b84edc5-d51f-4c6b-b19c-a1ccaf6fcb68",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "38deb40e-36cf-4662-bab9-b69ff1e19ad0",
+        "date_time": "2023-08-07T04:14:16.951Z",
+        "created_at": "2023-08-07T07:03:58.777Z",
+        "updated_at": "2023-08-06T22:17:04.932Z",
+        "car_id": "45120c76-d738-43c1-83c3-2c9e291eaa13",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "42f74d81-17c7-48a5-a48d-91a1254d36bb",
+        "created_at": "2023-08-07T13:20:59.193Z",
+        "updated_at": "2023-08-07T02:11:36.260Z",
+        "amount": 93540
+      },
+      {
+        "id": "8d72069d-3bac-4c0d-8140-e8e4444aae1f",
+        "created_at": "2023-08-07T13:33:10.225Z",
+        "updated_at": "2023-08-06T21:59:56.952Z",
+        "amount": 61298
+      },
+      {
+        "id": "c0acc886-569e-4f07-8a8f-cd2890cc1b0b",
+        "created_at": "2023-08-07T02:03:39.022Z",
+        "updated_at": "2023-08-06T19:21:50.301Z",
+        "amount": 72491
+      },
+      {
+        "id": "3b46223c-33ee-4136-8645-d594c2fe5175",
+        "created_at": "2023-08-07T02:00:35.333Z",
+        "updated_at": "2023-08-07T02:23:45.894Z",
+        "amount": 59675
+      },
+      {
+        "id": "667b8900-4be5-4b80-9308-009e931238d2",
+        "created_at": "2023-08-07T12:54:51.402Z",
+        "updated_at": "2023-08-06T16:59:27.814Z",
+        "amount": 99389
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "95db1902-5ec9-4c13-ba0b-787df686a3a7",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 30277,
+        "status": "Available",
+        "created_at": "2023-08-07T14:59:51.109Z",
+        "updated_at": "2023-08-07T12:47:45.204Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7a3e320d-64a6-400e-adea-f4850c16e51b",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 15405,
+        "status": "Sold",
+        "created_at": "2023-08-07T12:17:50.580Z",
+        "updated_at": "2023-08-06T20:50:11.230Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4bdbda52-24da-45fa-99fc-628f00688e69",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 38932,
+        "status": "Reserved",
+        "created_at": "2023-08-07T13:13:01.467Z",
+        "updated_at": "2023-08-07T01:38:44.273Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ccad71c7-e5b1-4b5d-8b8f-2b8377d9bb64",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 95821,
+        "status": "Out of Stock",
+        "created_at": "2023-08-06T22:12:14.446Z",
+        "updated_at": "2023-08-07T05:42:15.402Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "e48abd27-3730-4ee3-9efb-cecf35c42ca6",
+        "model": "Electric",
+        "make": "Tesla",
+        "year": 78121,
+        "status": "On Order",
+        "created_at": "2023-08-07T02:43:24.309Z",
+        "updated_at": "2023-08-06T22:09:38.465Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d15889f7-61b2-41bd-8662-b17da4d130e0",
+        "date_time": "2023-08-07T02:13:08.018Z",
+        "created_at": "2023-08-07T14:43:23.103Z",
+        "updated_at": "2023-08-06T22:33:04.954Z",
+        "car_id": "ccad71c7-e5b1-4b5d-8b8f-2b8377d9bb64",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "40ea9742-d9fd-43e0-aae7-db74d0708431",
+        "date_time": "2023-08-07T01:20:39.131Z",
+        "created_at": "2023-08-07T16:08:06.456Z",
+        "updated_at": "2023-08-07T10:59:17.215Z",
+        "car_id": "ccad71c7-e5b1-4b5d-8b8f-2b8377d9bb64",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ac03d8c3-9043-44c1-9fba-06718cb3069b",
+        "date_time": "2023-08-07T00:36:42.615Z",
+        "created_at": "2023-08-07T15:26:52.032Z",
+        "updated_at": "2023-08-06T23:45:40.451Z",
+        "car_id": "7a3e320d-64a6-400e-adea-f4850c16e51b",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "93780a99-c509-472d-93ed-e79557141914",
+        "date_time": "2023-08-07T08:27:59.220Z",
+        "created_at": "2023-08-07T10:49:46.635Z",
+        "updated_at": "2023-08-06T20:02:39.121Z",
+        "car_id": "ccad71c7-e5b1-4b5d-8b8f-2b8377d9bb64",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "02f93574-7df4-41d0-bae8-3d97b5fd7aeb",
+        "date_time": "2023-08-07T02:23:27.665Z",
+        "created_at": "2023-08-07T15:32:55.088Z",
+        "updated_at": "2023-08-06T23:16:00.032Z",
+        "car_id": "95db1902-5ec9-4c13-ba0b-787df686a3a7",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "00270215-8ba7-48af-9ce6-fc3bc18a0a8d",
+        "created_at": "2023-08-06T21:08:25.822Z",
+        "updated_at": "2023-08-07T16:13:50.888Z",
+        "amount": 26903
+      },
+      {
+        "id": "8daf103b-5869-4e1c-a220-e64e1cd36938",
+        "created_at": "2023-08-07T03:15:21.393Z",
+        "updated_at": "2023-08-07T02:57:31.363Z",
+        "amount": 11517
+      },
+      {
+        "id": "385029d9-de10-4d41-a008-1c5c16012585",
+        "created_at": "2023-08-07T02:30:01.788Z",
+        "updated_at": "2023-08-07T05:30:21.249Z",
+        "amount": 71660
+      },
+      {
+        "id": "9faa908c-61b7-4f4d-aaed-608fb29647bf",
+        "created_at": "2023-08-06T19:25:27.575Z",
+        "updated_at": "2023-08-06T18:15:16.725Z",
+        "amount": 58176
+      },
+      {
+        "id": "4cd06a6c-d549-462f-a36b-60c0f3ef910c",
+        "created_at": "2023-08-06T20:38:30.154Z",
+        "updated_at": "2023-08-07T06:53:33.899Z",
+        "amount": 27297
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "fb0d75cd-c413-4260-84be-9c3340f2b8b3",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 2228,
+        "status": "Available",
+        "created_at": "2023-08-06T22:50:38.482Z",
+        "updated_at": "2023-08-07T11:23:17.329Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "90ea7ba4-9a92-4215-ad11-2903535f145d",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 10521,
+        "status": "Sold",
+        "created_at": "2023-08-07T10:24:31.060Z",
+        "updated_at": "2023-08-07T13:51:36.789Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d46c1f83-edf9-4b27-93cd-e24b497d5410",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 79300,
+        "status": "Reserved",
+        "created_at": "2023-08-07T07:06:36.423Z",
+        "updated_at": "2023-08-06T22:34:27.286Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f296754d-4e36-4bd5-a71b-70f2a90bb53b",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 51889,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T12:04:52.991Z",
+        "updated_at": "2023-08-07T15:57:40.660Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9fc1b9ea-88d1-4fdd-9e7d-451fff7044c2",
+        "model": "Electric",
+        "make": "BMW",
+        "year": 37462,
+        "status": "On Order",
+        "created_at": "2023-08-07T07:39:40.534Z",
+        "updated_at": "2023-08-06T22:07:09.539Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "b1b51627-df8c-4e9e-83cf-4caa16ddbbde",
+        "date_time": "2023-08-06T18:20:56.328Z",
+        "created_at": "2023-08-06T23:35:57.448Z",
+        "updated_at": "2023-08-07T09:38:44.712Z",
+        "car_id": "d46c1f83-edf9-4b27-93cd-e24b497d5410",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "000d68c6-c52a-4710-9d83-3cc8422fbd49",
+        "date_time": "2023-08-07T15:33:59.738Z",
+        "created_at": "2023-08-06T22:04:50.792Z",
+        "updated_at": "2023-08-07T05:03:52.687Z",
+        "car_id": "9fc1b9ea-88d1-4fdd-9e7d-451fff7044c2",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "65cd0321-62f6-4599-8398-de60594b273d",
+        "date_time": "2023-08-07T06:08:58.549Z",
+        "created_at": "2023-08-07T02:55:15.420Z",
+        "updated_at": "2023-08-07T08:00:06.652Z",
+        "car_id": "d46c1f83-edf9-4b27-93cd-e24b497d5410",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0709607d-776b-46f8-91b1-266f47d0ba62",
+        "date_time": "2023-08-07T04:18:25.363Z",
+        "created_at": "2023-08-07T14:03:36.567Z",
+        "updated_at": "2023-08-07T12:59:45.695Z",
+        "car_id": "d46c1f83-edf9-4b27-93cd-e24b497d5410",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "49e33f5f-b8d5-4642-8c5f-169c2ee1deac",
+        "date_time": "2023-08-07T12:52:26.885Z",
+        "created_at": "2023-08-07T06:08:58.031Z",
+        "updated_at": "2023-08-07T02:13:36.594Z",
+        "car_id": "d46c1f83-edf9-4b27-93cd-e24b497d5410",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "6b0d6363-d4cd-4af9-a748-aea557e26fa8",
+        "created_at": "2023-08-07T05:25:54.337Z",
+        "updated_at": "2023-08-07T08:58:02.637Z",
+        "amount": 7601
+      },
+      {
+        "id": "196ffb9b-6ed5-4853-af26-6754cd7671d7",
+        "created_at": "2023-08-06T20:03:45.024Z",
+        "updated_at": "2023-08-06T23:57:19.632Z",
+        "amount": 78354
+      },
+      {
+        "id": "885e2c50-7e6a-41cc-8537-bbaf4a82dafb",
+        "created_at": "2023-08-06T19:48:58.629Z",
+        "updated_at": "2023-08-07T15:16:12.878Z",
+        "amount": 79372
+      },
+      {
+        "id": "b2e2f326-5bc2-48a6-a7f9-61ce0a3dd2a0",
+        "created_at": "2023-08-06T19:32:09.907Z",
+        "updated_at": "2023-08-07T08:17:32.002Z",
+        "amount": 44886
+      },
+      {
+        "id": "24388644-cfe1-40e2-8f2e-73beda0122ac",
+        "created_at": "2023-08-07T07:43:01.434Z",
+        "updated_at": "2023-08-07T16:02:18.352Z",
+        "amount": 31829
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "d743af8b-b116-4141-8e10-e71bb83531e4",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 21272,
+        "status": "Available",
+        "created_at": "2023-08-07T15:06:21.212Z",
+        "updated_at": "2023-08-07T10:23:33.654Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "011f3b9e-1f35-48ac-baf9-887095b64694",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 97001,
+        "status": "Sold",
+        "created_at": "2023-08-07T04:44:10.520Z",
+        "updated_at": "2023-08-06T22:24:02.154Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "17b01dc7-6d32-440e-b64e-fbaf0773bb55",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 79245,
+        "status": "Reserved",
+        "created_at": "2023-08-07T08:15:26.746Z",
+        "updated_at": "2023-08-07T02:47:58.428Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "b5b5bfef-b16a-4de0-ab9b-f6a8f290c09e",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 87851,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T01:38:21.432Z",
+        "updated_at": "2023-08-07T12:20:03.050Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4af90603-bd81-4961-a185-9eebcba8cfee",
+        "model": "Electric",
+        "make": "Tesla",
+        "year": 38376,
+        "status": "On Order",
+        "created_at": "2023-08-07T07:01:50.161Z",
+        "updated_at": "2023-08-07T09:21:27.258Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "d639b0a4-e9b5-4e08-a74f-25f66f5235f3",
+        "date_time": "2023-08-07T05:00:52.599Z",
+        "created_at": "2023-08-07T07:50:19.179Z",
+        "updated_at": "2023-08-07T03:47:59.961Z",
+        "car_id": "011f3b9e-1f35-48ac-baf9-887095b64694",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "20186b81-b484-45c7-b4e3-54aa5d12176a",
+        "date_time": "2023-08-07T04:36:49.077Z",
+        "created_at": "2023-08-06T22:44:55.500Z",
+        "updated_at": "2023-08-07T02:29:17.683Z",
+        "car_id": "011f3b9e-1f35-48ac-baf9-887095b64694",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "fe7be5ae-0d92-4e25-bd33-88839fa63b37",
+        "date_time": "2023-08-07T15:29:41.437Z",
+        "created_at": "2023-08-07T16:10:17.187Z",
+        "updated_at": "2023-08-07T02:59:31.468Z",
+        "car_id": "011f3b9e-1f35-48ac-baf9-887095b64694",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "e475b2c0-fd16-4715-85e0-0447fae93f7b",
+        "date_time": "2023-08-07T13:32:27.486Z",
+        "created_at": "2023-08-07T04:22:01.489Z",
+        "updated_at": "2023-08-07T11:15:18.583Z",
+        "car_id": "17b01dc7-6d32-440e-b64e-fbaf0773bb55",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c78abbc7-fe9c-414a-9c2d-042eaa4baa94",
+        "date_time": "2023-08-07T08:00:09.783Z",
+        "created_at": "2023-08-07T00:51:48.050Z",
+        "updated_at": "2023-08-07T00:17:38.304Z",
+        "car_id": "4af90603-bd81-4961-a185-9eebcba8cfee",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "4b18d177-f8a8-4fb8-bfe1-07987c50b91c",
+        "created_at": "2023-08-07T10:31:25.884Z",
+        "updated_at": "2023-08-07T02:41:31.338Z",
+        "amount": 58852
+      },
+      {
+        "id": "513c67c5-5d8a-4824-bfef-d8b812d4f225",
+        "created_at": "2023-08-07T11:15:36.363Z",
+        "updated_at": "2023-08-06T20:13:20.397Z",
+        "amount": 43544
+      },
+      {
+        "id": "ec051801-7d19-4d11-872b-d00e17e7a3bb",
+        "created_at": "2023-08-06T19:39:38.562Z",
+        "updated_at": "2023-08-07T05:50:00.257Z",
+        "amount": 77767
+      },
+      {
+        "id": "fc2e791c-ed0f-4a4f-9c3e-f7af3641e5ec",
+        "created_at": "2023-08-06T18:11:27.623Z",
+        "updated_at": "2023-08-07T08:35:30.932Z",
+        "amount": 64997
+      },
+      {
+        "id": "6bce2aa3-811c-411b-981a-937b1a905ef9",
+        "created_at": "2023-08-07T14:07:19.060Z",
+        "updated_at": "2023-08-06T19:10:57.615Z",
+        "amount": 46201
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "207ef1e2-1413-49a5-bda5-216b0bb7813a",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 69009,
+        "status": "Available",
+        "created_at": "2023-08-07T02:03:21.103Z",
+        "updated_at": "2023-08-06T23:02:30.168Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "23ddf8a9-b4ba-4b0d-9e5b-97ec9f232b60",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 27799,
+        "status": "Sold",
+        "created_at": "2023-08-06T23:43:40.706Z",
+        "updated_at": "2023-08-06T16:58:45.317Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "918fd494-5231-4af0-9165-9627ddb448f2",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 81098,
+        "status": "Reserved",
+        "created_at": "2023-08-07T04:42:29.690Z",
+        "updated_at": "2023-08-07T13:34:31.393Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6ecbaa55-c33c-4a50-ba84-2068e09415fd",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 48212,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T05:34:33.592Z",
+        "updated_at": "2023-08-06T21:05:15.278Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9809e474-708c-4a40-bfc9-20f9e89c7cfd",
+        "model": "Electric",
+        "make": "Tesla",
+        "year": 66581,
+        "status": "On Order",
+        "created_at": "2023-08-07T09:37:00.466Z",
+        "updated_at": "2023-08-06T23:41:32.499Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "baed32a2-8861-411d-8edc-6a7546e38ced",
+        "date_time": "2023-08-07T07:46:00.263Z",
+        "created_at": "2023-08-07T08:31:10.184Z",
+        "updated_at": "2023-08-06T22:40:22.695Z",
+        "car_id": "6ecbaa55-c33c-4a50-ba84-2068e09415fd",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "c99f9f78-7d28-4c95-b289-92ae8ad8332c",
+        "date_time": "2023-08-06T21:04:45.747Z",
+        "created_at": "2023-08-06T20:10:18.087Z",
+        "updated_at": "2023-08-06T16:59:36.908Z",
+        "car_id": "207ef1e2-1413-49a5-bda5-216b0bb7813a",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "73ff00ec-db0a-4d6e-a99d-521ef1679261",
+        "date_time": "2023-08-07T08:00:19.488Z",
+        "created_at": "2023-08-06T23:31:33.029Z",
+        "updated_at": "2023-08-07T00:55:39.810Z",
+        "car_id": "23ddf8a9-b4ba-4b0d-9e5b-97ec9f232b60",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "ab7f6360-e0d8-4511-8f0c-23fca6ed811d",
+        "date_time": "2023-08-07T10:02:21.304Z",
+        "created_at": "2023-08-07T15:46:16.840Z",
+        "updated_at": "2023-08-06T18:02:30.741Z",
+        "car_id": "6ecbaa55-c33c-4a50-ba84-2068e09415fd",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "0e82d1c3-751c-4a55-8ea9-b79538eb3ef5",
+        "date_time": "2023-08-06T21:29:08.812Z",
+        "created_at": "2023-08-07T08:02:09.932Z",
+        "updated_at": "2023-08-06T16:15:43.850Z",
+        "car_id": "6ecbaa55-c33c-4a50-ba84-2068e09415fd",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "268449b4-e1a5-4e28-8898-623e4dc85522",
+        "created_at": "2023-08-07T07:13:27.884Z",
+        "updated_at": "2023-08-07T01:55:54.204Z",
+        "amount": 90550
+      },
+      {
+        "id": "e1e796d8-0129-4458-88a9-eb7c7dc465cd",
+        "created_at": "2023-08-07T01:56:54.939Z",
+        "updated_at": "2023-08-07T16:10:26.397Z",
+        "amount": 15979
+      },
+      {
+        "id": "5310dee5-7498-4747-95c0-bc8f191f035f",
+        "created_at": "2023-08-06T21:38:30.839Z",
+        "updated_at": "2023-08-07T06:40:32.195Z",
+        "amount": 75546
+      },
+      {
+        "id": "4140782a-04e8-4a7e-a271-ca4d4fe762f1",
+        "created_at": "2023-08-07T02:31:32.030Z",
+        "updated_at": "2023-08-06T19:19:15.894Z",
+        "amount": 26617
+      },
+      {
+        "id": "5aaa8d0b-2537-4b1d-b20a-5b47015935f6",
+        "created_at": "2023-08-06T18:28:19.864Z",
+        "updated_at": "2023-08-07T14:16:04.926Z",
+        "amount": 17239
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "32089f39-6b9f-449e-8838-d9a88453e466",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 83353,
+        "status": "Available",
+        "created_at": "2023-08-07T00:51:04.822Z",
+        "updated_at": "2023-08-07T05:03:05.124Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7d340aec-2ed8-4308-9c6c-d135117f8978",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 32082,
+        "status": "Sold",
+        "created_at": "2023-08-06T23:57:38.391Z",
+        "updated_at": "2023-08-07T03:16:46.373Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "915c7865-e315-4ee6-881b-1cffaf576b07",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 6844,
+        "status": "Reserved",
+        "created_at": "2023-08-07T02:16:28.675Z",
+        "updated_at": "2023-08-07T03:53:03.288Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "f2340bef-c822-45c9-b015-a4754510d207",
+        "model": "Sports Car",
+        "make": "Chevrolet",
+        "year": 84614,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T06:47:03.925Z",
+        "updated_at": "2023-08-06T19:22:19.585Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "30fe737e-9517-4a9a-bd9f-691eff6066aa",
+        "model": "Electric Vehicle",
+        "make": "BMW",
+        "year": 33291,
+        "status": "On Order",
+        "created_at": "2023-08-07T09:37:54.051Z",
+        "updated_at": "2023-08-07T13:57:01.500Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "5d6c0776-8e95-430c-b973-e8a45f911b58",
+        "date_time": "2023-08-07T12:50:14.374Z",
+        "created_at": "2023-08-06T18:38:13.231Z",
+        "updated_at": "2023-08-07T06:34:14.740Z",
+        "car_id": "7d340aec-2ed8-4308-9c6c-d135117f8978",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "031047d2-7b7b-4bb1-b56b-797a285b3727",
+        "date_time": "2023-08-07T07:29:55.847Z",
+        "created_at": "2023-08-07T05:42:12.314Z",
+        "updated_at": "2023-08-07T05:10:06.272Z",
+        "car_id": "32089f39-6b9f-449e-8838-d9a88453e466",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "15a7c57e-53bb-4c32-8c8f-9584762320df",
+        "date_time": "2023-08-07T11:21:53.778Z",
+        "created_at": "2023-08-07T00:45:00.391Z",
+        "updated_at": "2023-08-07T07:31:17.638Z",
+        "car_id": "f2340bef-c822-45c9-b015-a4754510d207",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "8647d6fd-be1c-43ca-a80e-133d96e00c3e",
+        "date_time": "2023-08-06T23:05:23.860Z",
+        "created_at": "2023-08-07T03:00:11.489Z",
+        "updated_at": "2023-08-07T12:57:34.564Z",
+        "car_id": "30fe737e-9517-4a9a-bd9f-691eff6066aa",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "f745b100-e6b9-46d7-a925-ab884bd64d45",
+        "date_time": "2023-08-06T18:04:25.480Z",
+        "created_at": "2023-08-07T08:27:11.375Z",
+        "updated_at": "2023-08-06T18:47:20.897Z",
+        "car_id": "f2340bef-c822-45c9-b015-a4754510d207",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "93f2e588-599e-4248-a514-a49976b371b5",
+        "created_at": "2023-08-07T13:27:50.915Z",
+        "updated_at": "2023-08-06T23:33:34.758Z",
+        "amount": 35847
+      },
+      {
+        "id": "6973a20e-944b-47c6-84f3-89552e22023b",
+        "created_at": "2023-08-06T20:40:54.891Z",
+        "updated_at": "2023-08-07T14:53:51.574Z",
+        "amount": 22916
+      },
+      {
+        "id": "5fec1307-7a2c-488f-8a73-9d8ebe18b5b2",
+        "created_at": "2023-08-07T06:31:42.328Z",
+        "updated_at": "2023-08-07T14:42:52.386Z",
+        "amount": 63934
+      },
+      {
+        "id": "c37df560-ad2d-4d59-86b2-1a11a380d6ee",
+        "created_at": "2023-08-07T12:29:02.785Z",
+        "updated_at": "2023-08-06T20:03:50.483Z",
+        "amount": 51370
+      },
+      {
+        "id": "1da4274a-4214-4f92-bbbe-98e838a764fd",
+        "created_at": "2023-08-06T22:24:09.181Z",
+        "updated_at": "2023-08-06T20:56:03.888Z",
+        "amount": 41518
+      }
+    ]
+  },
+  {
+    "car": [
+      {
+        "id": "82d1b407-0b24-42d2-87b9-d21beb688c39",
+        "model": "Sedan",
+        "make": "Toyota",
+        "year": 96808,
+        "status": "Available",
+        "created_at": "2023-08-07T05:35:07.223Z",
+        "updated_at": "2023-08-07T12:53:12.765Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "63191166-7bd1-49ec-8355-e4a225d144f0",
+        "model": "SUV",
+        "make": "Honda",
+        "year": 26847,
+        "status": "Sold",
+        "created_at": "2023-08-07T07:47:38.275Z",
+        "updated_at": "2023-08-07T11:38:57.007Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a0b8d54e-4541-48d1-8a3e-286f74b3904f",
+        "model": "Hatchback",
+        "make": "Ford",
+        "year": 82017,
+        "status": "Reserved",
+        "created_at": "2023-08-06T23:05:32.673Z",
+        "updated_at": "2023-08-07T13:40:55.248Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "55dafc1c-31b4-42ac-a98b-987057875624",
+        "model": "Sports Car",
+        "make": "BMW",
+        "year": 55956,
+        "status": "Out of Stock",
+        "created_at": "2023-08-07T06:54:03.776Z",
+        "updated_at": "2023-08-06T20:34:16.818Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ecf56846-66e5-4298-9040-a803ac4d8b07",
+        "model": "Electric",
+        "make": "Tesla",
+        "year": 18309,
+        "status": "On Order",
+        "created_at": "2023-08-06T22:31:30.112Z",
+        "updated_at": "2023-08-07T01:42:42.000Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "booking": [
+      {
+        "id": "f23504d0-da95-4993-a347-cf41955ceecf",
+        "date_time": "2023-08-07T01:07:06.409Z",
+        "created_at": "2023-08-06T21:53:10.572Z",
+        "updated_at": "2023-08-06T16:20:22.976Z",
+        "car_id": "a0b8d54e-4541-48d1-8a3e-286f74b3904f",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "de890532-51be-499a-8060-a772fb244e15",
+        "date_time": "2023-08-06T17:19:04.697Z",
+        "created_at": "2023-08-07T05:29:05.794Z",
+        "updated_at": "2023-08-07T09:02:08.352Z",
+        "car_id": "a0b8d54e-4541-48d1-8a3e-286f74b3904f",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "3586ce34-7406-4ab6-8fa0-eb6170f40df0",
+        "date_time": "2023-08-06T23:37:23.760Z",
+        "created_at": "2023-08-07T05:49:17.245Z",
+        "updated_at": "2023-08-07T11:56:43.845Z",
+        "car_id": "55dafc1c-31b4-42ac-a98b-987057875624",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "4a9d0e7d-ab02-4995-9e36-fa49899eda61",
+        "date_time": "2023-08-06T16:45:54.126Z",
+        "created_at": "2023-08-06T19:32:20.030Z",
+        "updated_at": "2023-08-07T01:21:38.451Z",
+        "car_id": "a0b8d54e-4541-48d1-8a3e-286f74b3904f",
+        "customer_id": "user_entity_pk"
+      },
+      {
+        "id": "7c667e1d-9253-4576-9b45-f3f78a6b75e2",
+        "date_time": "2023-08-07T15:17:16.211Z",
+        "created_at": "2023-08-07T02:32:46.550Z",
+        "updated_at": "2023-08-07T01:12:36.160Z",
+        "car_id": "63191166-7bd1-49ec-8355-e4a225d144f0",
+        "customer_id": "user_entity_pk"
+      }
+    ],
+    "billing": [
+      {
+        "id": "40dacec7-4f4f-4218-85a4-aa75735e2331",
+        "created_at": "2023-08-07T14:42:59.924Z",
+        "updated_at": "2023-08-06T20:06:30.763Z",
+        "amount": 50066
+      },
+      {
+        "id": "8c3e4840-d6e6-4c70-8f3d-5dd712552454",
+        "created_at": "2023-08-07T15:33:33.372Z",
+        "updated_at": "2023-08-07T13:18:43.959Z",
+        "amount": 13389
+      },
+      {
+        "id": "52abd8fb-cbd4-401a-a7ad-55bd183bccc3",
+        "created_at": "2023-08-06T23:03:40.869Z",
+        "updated_at": "2023-08-06T20:04:12.329Z",
+        "amount": 26432
+      },
+      {
+        "id": "41d76581-68fe-46a9-90d0-4dd812fd674d",
+        "created_at": "2023-08-07T15:33:52.300Z",
+        "updated_at": "2023-08-07T06:51:19.789Z",
+        "amount": 58883
+      },
+      {
+        "id": "b80e51db-5d81-45a6-8f35-b77a48e8d7f6",
+        "created_at": "2023-08-07T01:57:29.635Z",
+        "updated_at": "2023-08-06T17:02:42.044Z",
+        "amount": 82284
+      }
+    ]
+  }
+]
